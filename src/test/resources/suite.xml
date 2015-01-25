@@ -1,0 +1,14 @@
+<suite name="suiteAmazon" verbose="10">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<test name="Smoke Test Amazon">
+		<classes>
+			<class
+				name="com.cedrox.training.selenium.AppTest">
+			</class>
+		</classes>
+	</test>
+</suite>
